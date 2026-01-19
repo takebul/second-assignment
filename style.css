@@ -112,26 +112,26 @@
 }
 
 .hero-bg{
-    position: absolute;
+    position: relative;
 }
 
 .position{
-    position:absolute;
+    position:relative;
 }
 
 .hero-circle{
-    position: absolute;
-    top: 190px;
+    /* position: absolute; */
+    top: -600px;
 }
 
 .microphone{
-    position: absolute;
-    top: 270px;
+    /* position: absolute; */
+    top: -870px;
 }
 
 img{
     max-width: 100%;
-    max-height: 100%;
+
 }
 
 .position-relative{
@@ -139,8 +139,8 @@ img{
 }
 
 .banner-text{
-    position: absolute;
-    padding-top: 491px;
+    position: relative;
+    top: -761px;
     text-align: center;
     padding-bottom: 112px;
 }
@@ -184,6 +184,7 @@ img{
 }
 
 .new{
+    position: absolute;
     background-color: #00FF88;
     padding: 8px 16px;
     font-weight: 600;
@@ -194,7 +195,10 @@ img{
     right: 5px;
 }
 
-
+.podcast{
+    max-width: 1600px;
+    margin: 0 auto;
+}
 
 
 
@@ -237,17 +241,17 @@ img{
     padding-bottom: 24px;}
 
     .hero-circle {
-    position: absolute;
-    top: 110px;
-    width: 80px;
+    position: relative;
+    top: -180px;
+    width: 85px;
 }
     .hero-circle>img{
-        
+        max-width: 100%;
     }
 
     .microphone{
-    position: absolute;
-    top: 130px;
+    position: relative;
+    top: -245px;
     width: 25px;
 }
     .new {
@@ -261,11 +265,11 @@ img{
     right: -6px;
 }
 
-.banner-text {
-    position: absolute;
-    padding-top: 96px;
+.banner-text{
+    position: relative;
+    top: -200px;
     text-align: center;
-    padding-bottom: 0px;
+    padding-bottom: 112px;
 }
 
 .banner-text>h2 {
