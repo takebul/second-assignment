@@ -716,8 +716,8 @@ footer{
         /* border: 2px solid red; */
         border-radius: 30px;
         background-color: #250D44;
-        width: 380px;
-        margin: 0 20px 16px;
+        width: 381px;
+        margin: 30px -45px 0px 2px;
     }
 
     .video-text>h3 {
@@ -760,7 +760,7 @@ footer{
     max-width: 576px;
     margin: 0 auto;
     position: absolute;
-    top: 4578px;
+    top: 4545px;
 }
 
 .footer-container{
