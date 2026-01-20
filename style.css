@@ -402,6 +402,64 @@ img{
     /* border:1px solid #F7E93F; */
 }
 
+.hoster-section{
+    position: relative;
+    top: -818px;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #1A0B2E;
+    padding-bottom: 120px;
+}
+
+.host-title{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hoster-container{
+    /* border: 2px solid red; */
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+    padding: 40px;
+    background-color: #351165;
+    border-radius: 40px;
+}
+
+.hoster-img{
+    width: 200px;
+    height: 200px;
+}
+
+.hoster-name{
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 1.25rem;
+    padding-bottom: 1rem;
+}
+
+.hoster-experience{
+    line-height: 24px;
+    font-size: 1rem;
+    font-weight: 200;
+    padding-bottom: 1rem;
+}
+
+ul a{
+    border: 2px solid #533C72;
+    height: 40px;
+    width: 40px;
+    border-radius: 1000px;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+
+
+
 
 
 
@@ -605,7 +663,30 @@ img{
         font-size: 2rem;
     }
 
-    
+    .host-title{
+    margin-bottom: 24px;
+    font-size: 2rem;}
+
+    .hoster-container{
+    text-align: center;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 24px;
+    align-items: center;
+}
+
+    .hoster-img{
+    width: 150px;
+    height: 150px;
+}
+
+    .hoster-experience{
+    font-size: 12px;
+}
+
+
+
+
 
 
 
