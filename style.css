@@ -106,7 +106,11 @@ html{
     #9100F8);
 }
 
+
+
 /* .banner-section */
+
+
 
 .banner-section{
     max-width: 1600px;
@@ -250,7 +254,12 @@ img{
     margin-bottom: 120px;
 }
 
+
+
 /* grid container */
+
+
+
 .grid-relative{
     max-width: 1600px;
     margin: 0 auto;
@@ -337,6 +346,64 @@ img{
     border-radius: 10px 0 20px;
 }
 
+    /* video section */
+
+    .video-section>h1{
+        text-align: center;
+        padding-bottom: 40px;
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+.video-section{
+    position: relative;
+    top: -818px;
+    max-width: 100rem;
+    margin: 0 auto;
+    padding-top: 120px;
+    background-color: #1A0B2E;
+    padding-bottom: 120px;
+}
+
+.video-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.video{
+    /* border: 2px solid red; */
+    border-radius: 30px;
+    background-color: #250D44;
+}
+
+.video-text{
+    padding: 24px;
+    line-height: 24px;
+}
+
+.video-text>h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.video-text>p{
+    margin-bottom: 12px;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.video-text>ol{
+    color: #00FF88;
+    margin-top: 16px;
+    /* border:1px solid #F7E93F; */
+}
+
+
+
 
 
 
@@ -377,6 +444,8 @@ img{
     padding-top: 24px;
     padding-bottom: 24px;}
 
+    /* podcast section 1 */
+
     .hero-circle {
     position: relative;
     top: -180px;
@@ -411,7 +480,7 @@ img{
 }
 
 .banner-text>h2 {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 800;
     margin-bottom: 0px;
 }
@@ -434,10 +503,12 @@ img{
     font-size: 8px;
 }
 
+    /* podcast section 2 */
+
 .podcast{
     margin: 0;
     position: relative;
-    top: -296px;
+    top: -301px;
     text-align: center;
     padding: 40px 20px;
     background-color: #1A0B2E;
@@ -476,6 +547,10 @@ img{
     font-size: 40px;
 }
 
+
+/* grid section */
+
+
 .grid-container-title{
     font-size: 2rem;
 }
@@ -504,6 +579,35 @@ img{
     padding: 12px 0px;
     margin: 0 40px;
 }
+
+    /* video-section */
+
+    .video-container{
+        grid-template-columns: repeat(1,300px);
+    }
+
+    .video{
+    /* border: 2px solid red; */
+    border-radius: 30px;
+    background-color: #250D44;
+    width: 380px;
+    margin: 0 20px 16px;
+}
+
+.video-text>h3{
+    font-size: 20px;}
+    
+    .video-text>p{
+        font-size: 12px;
+    }
+
+    .video-section>h1{
+        font-size: 2rem;
+    }
+
+    
+
+
 
 
 
