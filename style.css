@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 16px;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .inter-font {
@@ -177,10 +181,12 @@ img{
     border-radius: 10000px;
     background-clip: text;
     cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 .right-btn>i{
-    padding-right: 10px;
+    padding-right: 12px;
 }
 
 .new{
@@ -200,9 +206,9 @@ img{
     margin: 0 auto;
     /* border: 2px solid red; */
     position: relative;
-    top: -816px;
+    top: -818px;
     text-align: center;
-    padding-top: 16px;
+    padding-top: 120px;
     background-color: #1A0B2E;
 }
 .podcast h2{
@@ -242,6 +248,92 @@ img{
     font-weight: 200;
     padding-top: 16px;
     margin-bottom: 120px;
+}
+
+/* grid container */
+.grid-relative{
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 818px;
+    background-color: #230E3D;
+
+}
+
+.grid-container-title{
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #230E3D;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+    padding-top: 120px ;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.grid-container{
+    max-width: 1600px;
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 30px;
+}
+
+.grid-1{
+    padding: 107px 40px;
+    background-color: #351165;
+    border-radius: 40px;
+    grid-row: span 2;
+    color: #FFFFFF;
+}
+
+.grid-2, .grid-3, .grid-4, .grid-5{
+    padding: 40px;
+    background-color: #351165;
+    border-radius: 40px;
+    color: #FFFFFF;
+    gap: 16px 40px;
+}
+
+.grid-padding{
+    padding: 16px 40px;
+}
+
+.font-size-grid{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.font-style-grid-p{
+    line-height: 24px;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.grid-2{
+    grid-column: span 2;
+}
+
+.grid-3{
+    grid-column: span 2;
+}
+
+.grid-4{
+    grid-column: span 2;
+}
+.grid-padding>i{
+    width: 60px;
+    height: 60px;
+    background:linear-gradient(45deg,
+    #F7E93F,
+    #FB09B4,
+    #9100F8);
+    align-content: center;
+    border-radius: 10px 0 20px;
 }
 
 
@@ -346,7 +438,7 @@ img{
     position: relative;
     top: -296px;
     text-align: center;
-    padding-top: 16px;
+    padding: 40px 20px;
     background-color: #1A0B2E;
 }
 
@@ -357,7 +449,7 @@ img{
 }
 
 .podcast p{
-    font-size: 10px;
+    font-size: 8px;
     font-weight: 200;
     line-height: 20px;
 }
@@ -381,6 +473,10 @@ img{
 
 .podcast-card h1{
     font-size: 40px;
+}
+
+.grid-container{
+
 }
 
 
